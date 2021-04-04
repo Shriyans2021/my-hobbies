@@ -1,21 +1,78 @@
 body{
 text-align: center;
-    background: blue;
+margin: 0px;
+    padding-top: 800px;
     background-repeat: no-repeat;
 }
 h1{
 text-shadow: 2px 2px;
 font-size: 20px;
 }
-
-img{
-border-radius: 50%;
-width: 100px;
+#About {
+    z-index: 9;
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
 }
-
-
-zr.png{
+img{
 width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
+}
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.div1{
+display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.menu {
+   
+list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top:0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width:100%;
+    margin-top: 0px;
+}
+.links {
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#hobbies{
+
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
 }
