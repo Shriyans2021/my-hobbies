@@ -1,0 +1,21 @@
+body{
+text-align: center;
+    background: blue;
+    background-repeat: no-repeat;
+}
+h1{
+text-shadow: 2px 2px;
+font-size: 20px;
+}
+
+img{
+border-radius: 50%;
+width: 100px;
+}
+
+
+zr.png{
+width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
